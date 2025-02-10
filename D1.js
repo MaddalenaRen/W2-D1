@@ -12,24 +12,40 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+//I principali datatype di Java sono: String, Number, Boolean, Undefined e Null
+// String: un tipo di dato che può essere costituito da lettere, numeri (alfanumerico) ed è racchiusto sempre tra o virgolette o apici ("Marco" "123456789")
+//Number: un tipo di dato che è costituito da numeri ineri o decimali e non sono racchiusi tra virgolette o apici (10, 750, 6.5)
+//Boolean: un tipo di dato che esprime se un valore è True (vero) o False(falso) in base a determinate condizioni (10>5 True; 10<5 False)
+//Undefined: viene assegnata a una variabile dichiarata, ma a cui non è stato assegnato un valore.
+//Null:segnala l'assenza intenzionale di un valore, indica una mancanza di identificazione.
+
+
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let myName = "Maddalena";
+
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let number1 = 12;
+let number2 = 20;
+console.log(number1 + number2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA  */
+let x = 12;
+console.log(x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -37,12 +53,30 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+myName = "Rennella";
+const number3 = 25;
+
+console.log(myName);
+console.log(number3);
+
+//number3 = 15;
+console.log(number3);
+
+
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
+
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+//
+let y = 4;
+x = 12;
+let result = y - x;
+console.log(result)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +85,12 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let name1 = "john";
+let name2 = "John";
+
+console.log(name1 === name2);
+console.log(name1 !== name2);
+console.log(name1 === name2.toLowerCase());
+
+
